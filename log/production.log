@@ -1,0 +1,66 @@
+I, [2021-09-21T04:26:40.587519 #175289]  INFO -- : [49326178-ff38-45f3-b6d0-22c3450f1c7d] Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:26:40 -0700
+I, [2021-09-21T04:26:40.589532 #175289]  INFO -- : [49326178-ff38-45f3-b6d0-22c3450f1c7d] Processing by ChatroomController#catch_error as HTML
+I, [2021-09-21T04:26:40.601115 #175289]  INFO -- : [49326178-ff38-45f3-b6d0-22c3450f1c7d] Completed 500 Internal Server Error in 11ms (Allocations: 3330)
+F, [2021-09-21T04:26:40.610290 #175289] FATAL -- : [49326178-ff38-45f3-b6d0-22c3450f1c7d]   
+[49326178-ff38-45f3-b6d0-22c3450f1c7d] NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000a348>):
+[49326178-ff38-45f3-b6d0-22c3450f1c7d]   
+[49326178-ff38-45f3-b6d0-22c3450f1c7d] app/controllers/chatroom_controller.rb:7:in `catch_error'
+I, [2021-09-21T04:26:40.616526 #175289]  INFO -- sentry: Sending envelope [event] 5b87dc5642fe4e00b869a6d536092b8f to Sentry
+I, [2021-09-21T04:26:40.622738 #175289]  INFO -- sentry: Sending envelope [transaction] b2abe7a6f38f4f02bad4d031b968917e to Sentry
+I, [2021-09-21T04:26:49.904395 #175289]  INFO -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1] Started GET "/" for 127.0.0.1 at 2021-09-21 04:26:49 -0700
+I, [2021-09-21T04:26:49.905381 #175289]  INFO -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1] Processing by ChatroomController#index as HTML
+I, [2021-09-21T04:26:49.910362 #175289]  INFO -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1]   Rendered chatroom/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 106)
+I, [2021-09-21T04:26:49.911443 #175289]  INFO -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1]   Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 553)
+I, [2021-09-21T04:26:49.911737 #175289]  INFO -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1] Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 2377)
+I, [2021-09-21T04:26:49.924684 #175289]  INFO -- sentry: Sending envelope [event] c6e3c92cb2244e6b80a2ad4d8b7e3af1 to Sentry
+F, [2021-09-21T04:26:49.924863 #175289] FATAL -- : [3b33462a-65d8-4497-8f05-d0f855ee01b1]   
+[3b33462a-65d8-4497-8f05-d0f855ee01b1] ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.
+):
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     2: <html>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     3:   <head>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     4:     <title>MessageMe</title>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     5:     <%= favicon_link_tag %>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     6:     <meta name="viewport" content="width=device-width,initial-scale=1">
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     7:     <%= csrf_meta_tags %>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]     8:     <%= csp_meta_tag %>
+[3b33462a-65d8-4497-8f05-d0f855ee01b1]   
+[3b33462a-65d8-4497-8f05-d0f855ee01b1] app/views/layouts/application.html.erb:5
+I, [2021-09-21T04:26:49.926938 #175289]  INFO -- sentry: Sending envelope [transaction] b939fae7d7cc4ea697ecc6f47277c1cc to Sentry
+I, [2021-09-21T04:26:51.841452 #175289]  INFO -- : [196c3d79-164d-442d-987b-43c032162929] Started GET "/" for 127.0.0.1 at 2021-09-21 04:26:51 -0700
+I, [2021-09-21T04:26:51.842431 #175289]  INFO -- : [196c3d79-164d-442d-987b-43c032162929] Processing by ChatroomController#index as HTML
+I, [2021-09-21T04:26:51.844706 #175289]  INFO -- : [196c3d79-164d-442d-987b-43c032162929]   Rendered chatroom/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+I, [2021-09-21T04:26:51.845261 #175289]  INFO -- : [196c3d79-164d-442d-987b-43c032162929]   Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 213)
+I, [2021-09-21T04:26:51.845508 #175289]  INFO -- : [196c3d79-164d-442d-987b-43c032162929] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1121)
+I, [2021-09-21T04:26:51.859501 #175289]  INFO -- sentry: Sending envelope [event] 740e8b3eb6674a82a9ca81dfd589b76d to Sentry
+F, [2021-09-21T04:26:51.860299 #175289] FATAL -- : [196c3d79-164d-442d-987b-43c032162929]   
+[196c3d79-164d-442d-987b-43c032162929] ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.
+):
+[196c3d79-164d-442d-987b-43c032162929]     2: <html>
+[196c3d79-164d-442d-987b-43c032162929]     3:   <head>
+[196c3d79-164d-442d-987b-43c032162929]     4:     <title>MessageMe</title>
+[196c3d79-164d-442d-987b-43c032162929]     5:     <%= favicon_link_tag %>
+[196c3d79-164d-442d-987b-43c032162929]     6:     <meta name="viewport" content="width=device-width,initial-scale=1">
+[196c3d79-164d-442d-987b-43c032162929]     7:     <%= csrf_meta_tags %>
+[196c3d79-164d-442d-987b-43c032162929]     8:     <%= csp_meta_tag %>
+[196c3d79-164d-442d-987b-43c032162929]   
+[196c3d79-164d-442d-987b-43c032162929] app/views/layouts/application.html.erb:5
+I, [2021-09-21T04:26:51.862442 #175289]  INFO -- sentry: Sending envelope [transaction] 96601b3f1b344ff19222118b5ced08e3 to Sentry
+I, [2021-09-21T04:27:09.944794 #175289]  INFO -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a] Started GET "/" for 127.0.0.1 at 2021-09-21 04:27:09 -0700
+I, [2021-09-21T04:27:09.945732 #175289]  INFO -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a] Processing by ChatroomController#index as HTML
+I, [2021-09-21T04:27:09.947771 #175289]  INFO -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a]   Rendered chatroom/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 13)
+I, [2021-09-21T04:27:09.948256 #175289]  INFO -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a]   Rendered layout layouts/application.html.erb (Duration: 0.6ms | Allocations: 213)
+I, [2021-09-21T04:27:09.948480 #175289]  INFO -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a] Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms | Allocations: 1120)
+I, [2021-09-21T04:27:09.961393 #175289]  INFO -- sentry: Sending envelope [event] 699d1564b8a8449b838f83c9543cc6b5 to Sentry
+F, [2021-09-21T04:27:09.962015 #175289] FATAL -- : [ec8ba40b-ef09-41f6-bf41-6b146c77914a]   
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a] ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.
+):
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     2: <html>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     3:   <head>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     4:     <title>MessageMe</title>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     5:     <%= favicon_link_tag %>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     6:     <meta name="viewport" content="width=device-width,initial-scale=1">
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     7:     <%= csrf_meta_tags %>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]     8:     <%= csp_meta_tag %>
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a]   
+[ec8ba40b-ef09-41f6-bf41-6b146c77914a] app/views/layouts/application.html.erb:5
+I, [2021-09-21T04:27:09.963760 #175289]  INFO -- sentry: Sending envelope [transaction] 4aed7f3b27624107bd0fad02febce6db to Sentry
