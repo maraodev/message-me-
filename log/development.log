@@ -1,0 +1,558 @@
+Started GET "/" for 127.0.0.1 at 2021-08-30 05:59:11 -0700
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 321)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/dev/rails-practice/message_me/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: e2a8a876c5815bee1e21
+Version: webpack 4.46.0
+Time: 1306ms
+Built at: 08/30/2021 5:59:14 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-e421b4aa3f716bebdab1.js    125 KiB  application  [emitted] [immutable]  application
+js/application-e421b4aa3f716bebdab1.js.map    139 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-e421b4aa3f716bebdab1.js js/application-e421b4aa3f716bebdab1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 492 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 3 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2524.1ms | Allocations: 19737)
+Completed 200 OK in 2539ms (Views: 2531.3ms | ActiveRecord: 0.0ms | Allocations: 23293)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-30 05:59:20 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 106)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 3101)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.0ms | Allocations: 3985)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-31 03:01:11 -0700
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5561)
+Completed 200 OK in 24ms (Views: 15.6ms | ActiveRecord: 0.0ms | Allocations: 8150)
+
+
+Started GET "/" for 127.0.0.1 at 2021-08-31 03:13:46 -0700
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.2ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 46.4ms | Allocations: 8312)
+Completed 500 Internal Server Error in 48ms (Allocations: 8669)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: semantic-ui.
+        on line 1:1 of app/assets/stylesheets/custom.css.scss
+>> @import 'semantic-ui';
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/custom.css.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-08-31 03:18:33 -0700
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+  Rendered layout layouts/application.html.erb (Duration: 16.2ms | Allocations: 4182)
+Completed 500 Internal Server Error in 18ms (Allocations: 4614)
+
+
+  
+ActionView::Template::Error (Error: File to import not found or unreadable: semantic-ui.
+        on line 1:1 of app/assets/stylesheets/custom.css.scss
+>> @import 'semantic-ui';
+
+   ^
+):
+     6:     <%= csrf_meta_tags %>
+     7:     <%= csp_meta_tag %>
+     8: 
+     9:     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    10:     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+    11:   </head>
+    12: 
+  
+app/assets/stylesheets/custom.css.scss:1
+app/views/layouts/application.html.erb:9
+Started GET "/" for 127.0.0.1 at 2021-08-31 03:18:47 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 215)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/dev/rails-practice/message_me/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: d5a265523ef4785b80ec
+Version: webpack 4.46.0
+Time: 4379ms
+Built at: 08/31/2021 3:18:54 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d99ac11244504535ecea.js   1.15 MiB  application  [emitted] [immutable]  application
+js/application-d99ac11244504535ecea.js.map   1.32 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d99ac11244504535ecea.js js/application-d99ac11244504535ecea.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 527 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 28 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 6571.6ms | Allocations: 120351)
+Completed 200 OK in 6581ms (Views: 6573.6ms | ActiveRecord: 0.0ms | Allocations: 123108)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:19:49 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.8ms | Allocations: 110)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 15.4ms | Allocations: 6743)
+Completed 200 OK in 20ms (Views: 18.6ms | ActiveRecord: 0.0ms | Allocations: 7712)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:27:04 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 11.6ms | Allocations: 6942)
+Completed 200 OK in 15ms (Views: 13.9ms | Allocations: 8125)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:29:49 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.5ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 12.2ms | Allocations: 6962)
+Completed 200 OK in 16ms (Views: 14.4ms | Allocations: 8137)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:30:00 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 6962)
+Completed 200 OK in 12ms (Views: 11.4ms | Allocations: 8137)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:35:00 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 1.7ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layout layouts/application.html.erb (Duration: 19.2ms | Allocations: 6968)
+Completed 200 OK in 25ms (Views: 23.9ms | Allocations: 8143)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:44:38 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/dev/rails-practice/message_me/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: d67dd8fd9a77bb43fc2d
+Version: webpack 4.46.0
+Time: 1059ms
+Built at: 08/31/2021 3:44:40 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-acf3e75d70696f11f369.js   1.15 MiB  application  [emitted] [immutable]  application
+js/application-acf3e75d70696f11f369.js.map   1.32 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-acf3e75d70696f11f369.js js/application-acf3e75d70696f11f369.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 611 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 28 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2212.6ms | Allocations: 7927)
+Completed 200 OK in 2214ms (Views: 2213.1ms | Allocations: 8305)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:45:20 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/dev/rails-practice/message_me/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: d5a265523ef4785b80ec
+Version: webpack 4.46.0
+Time: 1090ms
+Built at: 08/31/2021 3:45:22 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d99ac11244504535ecea.js   1.15 MiB  application  [emitted] [immutable]  application
+js/application-d99ac11244504535ecea.js.map   1.32 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d99ac11244504535ecea.js js/application-d99ac11244504535ecea.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 527 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 28 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2259.6ms | Allocations: 7929)
+Completed 200 OK in 2263ms (Views: 2260.6ms | Allocations: 8311)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:45:29 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /home/dev/rails-practice/message_me/public/packs
+[Webpacker] warning ../../package.json: No license field
+
+[Webpacker] Hash: d67dd8fd9a77bb43fc2d
+Version: webpack 4.46.0
+Time: 976ms
+Built at: 08/31/2021 3:45:31 AM
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-acf3e75d70696f11f369.js   1.15 MiB  application  [emitted] [immutable]  application
+js/application-acf3e75d70696f11f369.js.map   1.32 MiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-acf3e75d70696f11f369.js js/application-acf3e75d70696f11f369.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 611 bytes {application} [built]
+[./node_modules/webpack/buildin/module.js] (webpack)/buildin/module.js 552 bytes {application} [built]
+    + 28 hidden modules
+
+  Rendered layout layouts/application.html.erb (Duration: 2103.9ms | Allocations: 7926)
+Completed 200 OK in 2105ms (Views: 2104.3ms | Allocations: 8303)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:50:41 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.4ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 7282)
+Completed 200 OK in 21ms (Views: 19.6ms | Allocations: 8464)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 03:50:53 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.1ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 15.3ms | Allocations: 6898)
+Completed 200 OK in 17ms (Views: 15.9ms | Allocations: 7277)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 04:24:13 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 35.5ms | Allocations: 6624)
+Completed 500 Internal Server Error in 38ms (Allocations: 7784)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `favicon_asset_tag' for #<ActionView::Base:0x00000000009d30>
+Did you mean?  favicon_pack_tag
+               favicon_link_tag):
+    2: <html>
+    3:   <head>
+    4:     <title>MessageMe</title>
+    5:     <%= favicon_asset_tag %>
+    6:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    7:     <%= csrf_meta_tags %>
+    8:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/login" for 127.0.0.1 at 2021-08-31 04:24:45 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.2ms | Allocations: 101)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 4302)
+Completed 500 Internal Server Error in 6ms (Allocations: 5547)
+
+
+  
+ActionView::Template::Error (The asset "favicon.ico" is not present in the asset pipeline.
+):
+    2: <html>
+    3:   <head>
+    4:     <title>MessageMe</title>
+    5:     <%= favicon_link_tag %>
+    6:     <meta name="viewport" content="width=device-width,initial-scale=1">
+    7:     <%= csrf_meta_tags %>
+    8:     <%= csp_meta_tag %>
+  
+app/views/layouts/application.html.erb:5
+Started GET "/login" for 127.0.0.1 at 2021-08-31 04:25:22 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.6ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 121)
+  Rendered layout layouts/application.html.erb (Duration: 53.6ms | Allocations: 23890)
+Completed 200 OK in 56ms (Views: 55.1ms | Allocations: 24277)
+
+
+Started GET "/" for ::1 at 2021-08-31 04:28:07 -0700
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 101)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 26.3ms | Allocations: 7320)
+Completed 200 OK in 31ms (Views: 29.5ms | Allocations: 8227)
+
+
+Started GET "/" for ::1 at 2021-08-31 04:28:17 -0700
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 1.3ms | Allocations: 124)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 19961)
+Completed 200 OK in 57ms (Views: 49.7ms | ActiveRecord: 0.0ms | Allocations: 22718)
+
+
+Started GET "/" for ::1 at 2021-08-31 04:29:21 -0700
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 36)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.2ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 28.0ms | Allocations: 8649)
+Completed 200 OK in 31ms (Views: 29.3ms | ActiveRecord: 0.0ms | Allocations: 9034)
+
+
+Started GET "/login" for 127.0.0.1 at 2021-08-31 04:29:26 -0700
+Processing by SessionsController#new as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering sessions/new.html.erb within layouts/application
+  Rendered sessions/new.html.erb within layouts/application (Duration: 0.3ms | Allocations: 108)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.1ms | Allocations: 38)
+  Rendered layout layouts/application.html.erb (Duration: 37.8ms | Allocations: 7399)
+Completed 200 OK in 41ms (Views: 40.7ms | ActiveRecord: 0.0ms | Allocations: 8364)
+
+
+Started GET "/" for ::1 at 2021-09-20 03:06:35 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 215)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.3ms | Allocations: 127)
+  Rendered layout layouts/application.html.erb (Duration: 74.1ms | Allocations: 29227)
+Completed 200 OK in 85ms (Views: 76.4ms | ActiveRecord: 0.0ms | Allocations: 31927)
+
+
+Started GET "/admin" for ::1 at 2021-09-20 05:20:12 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/admin"):
+  
+Sentry HTTP Transport connecting to https://o1008190.ingest.sentry.io
+initialized a background worker with 8 threads
+Sentry HTTP Transport connecting to https://o1008190.ingest.sentry.io
+initialized a background worker with 8 threads
+[Tracing] Starting <rails.request> transaction </>
+Started GET "/" for 127.0.0.1 at 2021-09-21 04:14:42 -0700
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering chatroom/index.html.erb within layouts/application
+  Rendered chatroom/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 242)
+[Webpacker] Everything's up-to-date. Nothing to do
+  Rendered layouts/_navigation.html.erb (Duration: 0.5ms | Allocations: 138)
+  Rendered layout layouts/application.html.erb (Duration: 81.1ms | Allocations: 20110)
+Completed 200 OK in 93ms (Views: 83.9ms | ActiveRecord: 0.0ms | Allocations: 22682)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Sending envelope [transaction] 72f3f53da5d549a68e9a443e7680ee8f to Sentry
+[Tracing] Starting <rails.request> transaction </catch_error>
+Started GET "/catch_error" for 127.0.0.1 at 2021-09-21 04:14:51 -0700
+  
+ActionController::RoutingError (No route matches [GET] "/catch_error"):
+  
+Sending envelope [transaction] 01668a5dc69d4c08bfd27e76628245fd to Sentry
+[Tracing] Starting <rails.request> transaction </chatroom/catch_error>
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:15:10 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3087)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000a528>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Sending envelope [event] 26b0d3b42b3a4bf7a3514ff092b47407 to Sentry
+Sending envelope [transaction] 75c83cdbff5b423895417aa670507571 to Sentry
+[Tracing] Starting <rails.request> transaction </chatroom/catch_error>
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:21:54 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 9ms (Allocations: 3052)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000a910>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Sending envelope [event] a56ca05f2b934a9d870ad3c9235418c4 to Sentry
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Sending envelope [transaction] c0353deda70a4dd9b69345ef7bf23e8d to Sentry
+[Tracing] Starting <rails.request> transaction </chatroom/catch_error>
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:22:28 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 3052)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000ad70>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Sending envelope [event] caab1cc6521e428abad365a45061ae70 to Sentry
+Sending envelope [transaction] c8054fda1d5247aebb8f29f792bb380f to Sentry
+[Tracing] Starting <rails.request> transaction </chatroom/catch_error>
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:22:45 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms | Allocations: 3050)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000b0e0>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Sending envelope [event] fb40e42bd10b4f7f8597b448249789aa to Sentry
+Sending envelope [transaction] 11c17ad9e8194164adbbc4234524a783 to Sentry
+[Tracing] Starting <rails.request> transaction </chatroom/catch_error>
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:22:47 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms | Allocations: 3051)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000b428>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Sending envelope [event] b4b9cbef59314cc991542a8330c5ab74 to Sentry
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Sending envelope [transaction] 7dfbea5f5a9c46b1849611431dbb3536 to Sentry
+Transaction sending failed: execution expired
+Unreported Transaction: ChatroomController#catch_error
+Sentry HTTP Transport connecting to https://o1008190.ingest.sentry.io
+initialized a background worker with 8 threads
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:24:53 -0700
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3965)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x00000000009d80>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:07 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3088)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000a2d0>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:07 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3042)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000a668>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:09 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3042)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000aa00>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:10 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3042)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000ad98>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:11 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 3041)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000b0e0>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
+Started GET "/chatroom/catch_error" for 127.0.0.1 at 2021-09-21 04:25:11 -0700
+Processing by ChatroomController#catch_error as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms | Allocations: 3041)
+
+
+  
+NameError (undefined local variable or method `temp' for #<ChatroomController:0x0000000000b428>):
+  
+app/controllers/chatroom_controller.rb:7:in `catch_error'
